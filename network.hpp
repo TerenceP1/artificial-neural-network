@@ -15,4 +15,8 @@ public:
     char* err;
     char* what(){return err;}
 };
+void init() {
+    if (isInit) {
+        NeuralNetworkInitializedError err;
+        err.err 
 };
