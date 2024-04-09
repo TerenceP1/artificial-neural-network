@@ -10,4 +10,9 @@ public:
     char* err;
     char* what(){return err;}
 };
+class public std::exception: NeuralNetworkNotInitializedError {
+public:
+    char* err;
+    char* what(){return err;}
+};
 };
